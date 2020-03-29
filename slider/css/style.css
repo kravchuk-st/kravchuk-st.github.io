@@ -96,7 +96,7 @@ header{
   display: block;
   width: 6px;
   height: 10px; 
-  background: url('/img/prev.png');
+  background: url('../img/prev.png');
   background-size: 100% 100%;
   position: relative;
   opacity: 1;
@@ -108,7 +108,7 @@ header{
   display: block;
   width: 6px;
   height: 10px; 
-  background: url('/img/prev-hover.png');
+  background: url('../img/prev-hover.png');
   background-size: 100% 100%;
   position: relative;
   opacity: 1;
@@ -120,7 +120,7 @@ header{
   display: block;
   width: 6px;
   height: 10px; 
-  background: url('/img/next.png');
+  background: url('../img/next.png');
   background-size: 100% 100%;
   position: relative;
   opacity: 1;
@@ -132,7 +132,7 @@ header{
   display: block;
   width: 6px;
   height: 10px; 
-  background: url('/img/next-hover.png');
+  background: url('../img/next-hover.png');
   background-size: 100% 100%;
   position: relative;
   opacity: 1;
