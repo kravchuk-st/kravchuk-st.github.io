@@ -192,10 +192,4 @@ header{
     max-width: 1169px;
     margin: auto;
   }
-  .slick-slide{
-    margin-left: 40px;
-  }
-  .slick-slide:first-child{
-  margin-left: 0;
-  }
 }
