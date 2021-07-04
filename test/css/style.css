@@ -1,0 +1,381 @@
+html{
+  box-sizing: border-box;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+.list-reset{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*:active,
+*:focus {
+  outline: none !important;
+}
+
+body{
+  font-family: 'TTNorms', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #383838;
+}
+
+h1, h2, h3, h4, h5, h6, p, .row, .btn{
+  margin: 0;
+  padding: 0;
+}
+
+.btn:focus, .btn:active {
+  box-shadow: none !important;
+}
+
+.navbar{
+  padding: 13px 0;
+}
+
+.navbar-brand{
+  margin-right: 0;
+}
+
+.navbar-toggler,
+.container-fluid{
+  padding: 0;
+}
+
+.navbar-light .navbar-toggler,
+.navbar-light .navbar-toggler:active{
+  border: none;
+  box-shadow: none;
+}
+
+.wrapper{
+  width: 84%;
+  max-width: 1062px;
+  margin: 0 auto;
+}
+
+header{
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background-color: #fff;
+}
+
+.header-top{
+  font-size: 14px;
+  padding: 6px 0 6px;
+  color: #fff;
+  background-color: #a0c5db;
+  display: flex;
+  justify-content: center;
+}
+
+.header-top a{
+  margin-left: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+
+header .wrapper{
+  max-width: 920px;
+}
+
+.btn-reset{
+  background-color: transparent;
+}
+
+.cart-md{
+  margin-left: 20px;
+}
+
+.hero{
+  padding: 60px 0 70px;
+  background-color: #f4f4f4;
+}
+
+.faq{
+  padding: 60px 0 120px;
+}
+
+.faq .wrapper{
+  padding: 0 64px;
+}
+
+.title{
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 12px;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.descr{
+  text-align: center;
+  max-width: 625px;
+  margin: 0 auto 59px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.tabs {
+  margin-bottom: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.tabs button {
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+  color: #ababab;
+  background-color: transparent;
+}
+
+/* Create an active/current tablink class */
+.tabs button.active {
+  color: #4b94c6;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 62px 73px 129px 65px;
+  border-radius: 3px;
+  box-shadow: 0 0 44px 10px rgba(216, 216, 216, 0.5);
+}
+
+.tabcontent .col-6:first-child{
+  padding-right: 8%;
+}
+
+.tabcontent h3{
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.tabcontent p{
+  color: #4e4e4e;
+}
+
+.tabcontent p:not(:last-child){
+  margin-bottom: 20px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+  color: #4e4e4e;
+  padding: 22px 21px 33px;
+  border-radius: 3px;
+  box-shadow: 0 0 30px 0 rgba(216, 216, 216, 0.5);
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide h3{
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 32px;
+  color: #363636;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 24px;
+}
+
+.swiper-slide p{
+  font-size: 16px;
+  text-align: left;
+  font-weight: normal;
+  line-height: 26px;
+  color: #4e4e4e;
+}
+
+.swiper-slide p:not(:last-child){
+margin-bottom: 24px;
+}
+
+.swiper-slide {
+  width: 90%;
+}
+
+.swiper-pagination-bullet{
+  background: #dfdfdf;
+}
+
+.swiper-pagination-bullet-active{
+  background: #9a9a9a;
+}
+
+.accordion-left{
+  padding-right: 6%;
+}
+
+.img-sm{
+  width: 100%;
+  margin-bottom: 24px;
+  box-shadow: 0 0 28px 6px rgba(216, 216, 216, 0.5);
+}
+
+.img-big{
+  width: 100%;
+  box-shadow: 0 0 44px 10px rgba(216, 216, 216, 0.5);
+}
+
+.accordion-button{
+  padding: 22px 10px 22px 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #ababab;
+  background-color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #383838;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button::after{
+  color: #ababab !important;
+}
+
+.accordion-body {
+  padding: 0 10px 20px 0;
+}
+
+
+
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding: 0;
+    margin-left: 35px;
+  }
+
+  .nav-link{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 500;
+  }
+
+  .cart-sm,
+  .mySwiper{
+    display: none;
+  }
+
+  .img-sm{
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero,
+  .faq{
+    padding: 40px 0 50px;
+  }
+
+  .title{
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .descr{
+    margin-bottom: 40px;
+  }
+
+  .faq .descr{
+    margin-bottom: 20px;
+  }
+
+  .cart-md,
+  .tab{
+    display: none;
+  }
+
+  .faq .wrapper{
+    padding: 0;
+  }
+
+  .accordion-body{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 25px;
+  }
+
+  .accordion-button{
+    padding: 20px 0;
+  }
+
+  .accordion-left{
+    padding-right: 0;
+  }
+
+  .accordion-right{
+    display: none;
+  }
+}
